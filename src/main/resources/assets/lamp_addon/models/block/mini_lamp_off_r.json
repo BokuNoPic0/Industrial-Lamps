@@ -1,0 +1,7 @@
+{
+	"parent": "lamp_addon:block/mini_lamp_on_r",
+	"textures": {
+		"particle": "lamp_addon:blocks/mini_lamp_off",
+		"down": "lamp_addon:blocks/mini_lamp_off"
+	}
+}

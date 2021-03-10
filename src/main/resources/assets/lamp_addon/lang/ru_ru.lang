@@ -1,0 +1,30 @@
+itemGroup.custom_tab1=Энергозависимые лампы
+tile.lamp_addon.lamp_on.name=Белый осветительный блок(работает)
+tile.lamp_addon.lamp_off.name=Белый осветительный блок
+tile.lamp_addon.mini_lamp_on.name=Белая лампочка(работает)
+tile.lamp_addon.mini_lamp_off.name=Белая лампочка
+
+tile.lamp_addon.red_lamp_on.name=Красный осветительный блок(работает)
+tile.lamp_addon.red_lamp_off.name=Красный осветительный блок
+tile.lamp_addon.red_mini_lamp_on.name=Красная лампочка(работает)
+tile.lamp_addon.red_mini_lamp_off.name=Красная лампочка
+
+tile.lamp_addon.blue_lamp_on.name=Голубой осветительный блок(работает)
+tile.lamp_addon.blue_lamp_off.name=Голубой осветительный блок
+tile.lamp_addon.blue_mini_lamp_on.name=Голубая лампочка(работает)
+tile.lamp_addon.blue_mini_lamp_off.name=Голубая лампочка
+
+tile.lamp_addon.green_lamp_on.name=Зеленый осветительный блок(работает)
+tile.lamp_addon.green_lamp_off.name=Зеленый осветительный блок
+tile.lamp_addon.green_mini_lamp_on.name=Зеленая лампочка(работает)
+tile.lamp_addon.green_mini_lamp_off.name=Зеленая лампочка
+
+tile.lamp_addon.yellow_lamp_on.name=Желтый осветительный блок(работает)
+tile.lamp_addon.yellow_lamp_off.name=Желтый осветительный блок
+tile.lamp_addon.yellow_mini_lamp_on.name=Желтая лампочка(работает)
+tile.lamp_addon.yellow_mini_lamp_off.name=Желтая лампочка
+
+tile.lamp_addon.purple_lamp_on.name=Фиолетовый осветительный блок(работает)
+tile.lamp_addon.purple_lamp_off.name=Фиолетовый осветительный блок
+tile.lamp_addon.purple_mini_lamp_on.name=Фиолетовая лампочка(работает)
+tile.lamp_addon.purple_mini_lamp_off.name=Фиолетовая лампочка

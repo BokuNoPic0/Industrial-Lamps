@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/cube",
+	"textures": {
+		"particle": "lamp_addon:blocks/green_mini_lamp_on",
+		"down": "lamp_addon:blocks/green_mini_lamp_on"
+	},
+	"elements": [
+		{
+			"from": [0, 4, 4],
+			"to": [2, 12, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 15, 16, 16], "rotation": 270, "texture": "#down"},
+				"south": {"uv": [0, 15, 16, 16], "rotation": 90, "texture": "#down"},
+				"west": {"uv": [0, 0, 1, 1], "rotation": 90, "texture": "#down"},
+				"up": {"uv": [0, 15, 16, 16], "rotation": 90, "texture": "#down"},
+				"down": {"uv": [0, 15, 16, 16], "rotation": 90, "texture": "#down"}
+			}
+		},
+		{
+			"from": [2, 3, 3],
+			"to": [12, 13, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [1, 1, 15, 15], "rotation": 270, "texture": "#down"},
+				"east": {"uv": [1, 1, 15, 15], "rotation": 90, "texture": "#down"},
+				"south": {"uv": [1, 1, 15, 15], "rotation": 90, "texture": "#down"},
+				"west": {"uv": [1, 1, 15, 15], "rotation": 90, "texture": "#down"},
+				"up": {"uv": [1, 1, 15, 15], "rotation": 90, "texture": "#down"},
+				"down": {"uv": [1, 1, 15, 15], "rotation": 90, "texture": "#down"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"children": [0, 1]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"down": "lamp_addon:blocks/red_lamp_off",
+		"up": "lamp_addon:blocks/red_lamp_off",
+		"north": "lamp_addon:blocks/red_lamp_off",
+		"east": "lamp_addon:blocks/red_lamp_off",
+		"south": "lamp_addon:blocks/red_lamp_off",
+		"west": "lamp_addon:blocks/red_lamp_off",
+		"particle": "lamp_addon:blocks/red_lamp_off"
+	}
+}

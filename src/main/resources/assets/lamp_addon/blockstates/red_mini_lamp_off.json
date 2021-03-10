@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=up": { "model": "lamp_addon:red_mini_lamp_off" },
+    "facing=down": { "model": "lamp_addon:red_mini_lamp_off", "x": 180 },
+    "facing=east": { "model": "lamp_addon:red_mini_lamp_off_r"},
+    "facing=south": { "model": "lamp_addon:red_mini_lamp_off_r", "y": 90},
+    "facing=west": { "model": "lamp_addon:red_mini_lamp_off_r", "y": 180},
+    "facing=north": { "model": "lamp_addon:red_mini_lamp_off_r", "y": 270 }
+  }
+}

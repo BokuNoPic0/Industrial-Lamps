@@ -1,0 +1,10 @@
+[
+  {
+    "modid": "eu_lamp",
+    "name": "EU lamp",
+    "description": "ITS ALIVE!",
+    "version": "1.0",
+    "mcversion": "1.12.2",
+    "authorList": ["ICY"]
+  }
+]

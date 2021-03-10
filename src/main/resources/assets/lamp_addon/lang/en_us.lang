@@ -1,0 +1,30 @@
+itemGroup.custom_tab1=Industrial Lamps
+tile.lamp_addon.lamp_on.name=White lumination block(enabled)
+tile.lamp_addon.lamp_off.name=White lumination block
+tile.lamp_addon.mini_lamp_on.name=White lantern(enabled)
+tile.lamp_addon.mini_lamp_off.name=White lantern
+
+tile.lamp_addon.red_lamp_on.name=Red lumination block(enabled)
+tile.lamp_addon.red_lamp_off.name=Red lumination block
+tile.lamp_addon.red_mini_lamp_on.name=Red lantern(enabled)
+tile.lamp_addon.red_mini_lamp_off.name=Red lantern
+
+tile.lamp_addon.blue_lamp_on.name=Blue lumination block(enabled)
+tile.lamp_addon.blue_lamp_off.name=Blue lumination block
+tile.lamp_addon.blue_mini_lamp_on.name=Blue lantern(enabled)
+tile.lamp_addon.blue_mini_lamp_off.name=Blue lantern
+
+tile.lamp_addon.green_lamp_on.name=Green lumination block(enabled)
+tile.lamp_addon.green_lamp_off.name=Green lumination block
+tile.lamp_addon.green_mini_lamp_on.name=Green lantern(enabled)
+tile.lamp_addon.green_mini_lamp_off.name=Green lantern
+
+tile.lamp_addon.yellow_lamp_on.name=Yellow lumination block(enabled)
+tile.lamp_addon.yellow_lamp_off.name=Yellow lumination block
+tile.lamp_addon.yellow_mini_lamp_on.name=Yellow lantern(enabled)
+tile.lamp_addon.yellow_mini_lamp_off.name=Yellow lantern
+
+tile.lamp_addon.purple_lamp_on.name=Purple lumination block(enabled)
+tile.lamp_addon.purple_lamp_off.name=Purple lumination block
+tile.lamp_addon.purple_mini_lamp_on.name=Purple lantern(enabled)
+tile.lamp_addon.purple_mini_lamp_off.name=Purple lantern
