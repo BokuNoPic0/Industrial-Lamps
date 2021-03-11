@@ -35,11 +35,11 @@ public class BlueMiniLampICTileEntity extends BlueCustomSink implements ITickabl
         if(this.energyBuffer.getEnergyStored()>=price){
             this.energyBuffer.useEnergy(price);
             if(this.world.getBlockState(this.pos).getBlock() == ModMain.CustomBlocks.blue_mini_lamp_off){
-                this.world.setBlockState(this.pos,ModMain.CustomBlocks.mini_lamp_on.getDefaultState().withProperty(MiniLampBlock.FACING,facing));
+                this.world.setBlockState(this.pos,ModMain.CustomBlocks.blue_mini_lamp_on.getDefaultState().withProperty(MiniLampBlock.FACING,facing));
             }
         } else {
             if(this.world.getBlockState(this.pos).getBlock() == ModMain.CustomBlocks.blue_mini_lamp_on){
-                this.world.setBlockState(this.pos,ModMain.CustomBlocks.mini_lamp_off.getDefaultState().withProperty(MiniLampBlock.FACING,facing));
+                this.world.setBlockState(this.pos,ModMain.CustomBlocks.blue_mini_lamp_off.getDefaultState().withProperty(MiniLampBlock.FACING,facing));
             }
         }
         TileEntity te = world.getTileEntity(this.pos);

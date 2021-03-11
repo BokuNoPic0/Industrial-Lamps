@@ -197,7 +197,7 @@ public class RedMiniLampBlock extends BlockContainer{// BlockContainer block
         if(!worldIn.isRemote){
             TileEntity te = worldIn.getTileEntity(pos);
             if (te != null && te instanceof RedMiniLampICTileEntity && playerIn.capabilities.isCreativeMode) {
-                playerIn.sendMessage(new TextComponentString("energy: "+((RedMiniLampICTileEntity) te).getEnergy()+"/"+((MiniLampICTileEntity) te).getMaxEnergy()));
+                playerIn.sendMessage(new TextComponentString("energy: "+((RedMiniLampICTileEntity) te).getEnergy()+"/"+((RedMiniLampICTileEntity) te).getMaxEnergy()));
             }
         }
         return true;

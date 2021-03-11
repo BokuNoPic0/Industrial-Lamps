@@ -85,7 +85,7 @@ public class PurpleLampBlock extends BlockContainer {
         if(!worldIn.isRemote){
             TileEntity te = worldIn.getTileEntity(pos);
             if (te != null && te instanceof PurpleLampICTileEntity && playerIn.capabilities.isCreativeMode) {
-                playerIn.sendMessage(new TextComponentString("energy: "+((PurpleLampICTileEntity) te).getEnergy()+"/"+((LampICTileEntity) te).getMaxEnergy()));
+                playerIn.sendMessage(new TextComponentString("energy: "+((PurpleLampICTileEntity) te).getEnergy()+"/"+((PurpleLampICTileEntity) te).getMaxEnergy()));
             }
         }
         return true;

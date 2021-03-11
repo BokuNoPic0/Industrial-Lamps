@@ -85,7 +85,7 @@ public class BlueLampBlock extends BlockContainer {
         if(!worldIn.isRemote){
             TileEntity te = worldIn.getTileEntity(pos);
             if (te != null && te instanceof BlueLampICTileEntity && playerIn.capabilities.isCreativeMode) {
-                playerIn.sendMessage(new TextComponentString("energy: "+((BlueLampICTileEntity) te).getEnergy()+"/"+((LampICTileEntity) te).getMaxEnergy()));
+                playerIn.sendMessage(new TextComponentString("energy: "+((BlueLampICTileEntity) te).getEnergy()+"/"+((BlueLampICTileEntity) te).getMaxEnergy()));
             }
         }
         return true;

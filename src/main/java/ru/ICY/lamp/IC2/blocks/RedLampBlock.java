@@ -85,7 +85,7 @@ public class RedLampBlock extends BlockContainer {
         if(!worldIn.isRemote){
             TileEntity te = worldIn.getTileEntity(pos);
             if (te != null && te instanceof RedLampICTileEntity && playerIn.capabilities.isCreativeMode) {
-                playerIn.sendMessage(new TextComponentString("energy: "+((RedLampICTileEntity) te).getEnergy()+"/"+((LampICTileEntity) te).getMaxEnergy()));
+                playerIn.sendMessage(new TextComponentString("energy: "+((RedLampICTileEntity) te).getEnergy()+"/"+((RedLampICTileEntity) te).getMaxEnergy()));
             }
         }
         return true;

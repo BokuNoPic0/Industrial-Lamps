@@ -165,10 +165,10 @@ public class ModMain {
                     new RedMiniLampBlock("red_mini_lamp_on",tab, (float) miniLampLightLevel),
                     new RedMiniLampBlock("red_mini_lamp_off",tab,0f),
 
-                    new YellowLampBlock("blue_lamp_on", Material.GLASS, tab, (float) lampLightLevel),
-                    new YellowLampBlock("blue_lamp_off", Material.GLASS, tab,0f),
-                    new YellowMiniLampBlock("blue_mini_lamp_on",tab, (float) miniLampLightLevel),
-                    new YellowMiniLampBlock("blue_mini_lamp_off",tab,0f),
+                    new BlueLampBlock("blue_lamp_on", Material.GLASS, tab, (float) lampLightLevel),
+                    new BlueLampBlock("blue_lamp_off", Material.GLASS, tab,0f),
+                    new BlueMiniLampBlock("blue_mini_lamp_on",tab, (float) miniLampLightLevel),
+                    new BlueMiniLampBlock("blue_mini_lamp_off",tab,0f),
 
                     new PurpleLampBlock("purple_lamp_on", Material.GLASS, tab, (float) lampLightLevel),
                     new PurpleLampBlock("purple_lamp_off", Material.GLASS, tab,0f),

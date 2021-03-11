@@ -85,7 +85,7 @@ public class GreenLampBlock extends BlockContainer {
         if(!worldIn.isRemote){
             TileEntity te = worldIn.getTileEntity(pos);
             if (te != null && te instanceof GreenLampICTileEntity && playerIn.capabilities.isCreativeMode) {
-                playerIn.sendMessage(new TextComponentString("energy: "+((GreenLampICTileEntity) te).getEnergy()+"/"+((LampICTileEntity) te).getMaxEnergy()));
+                playerIn.sendMessage(new TextComponentString("energy: "+((GreenLampICTileEntity) te).getEnergy()+"/"+((GreenLampICTileEntity) te).getMaxEnergy()));
             }
         }
         return true;
